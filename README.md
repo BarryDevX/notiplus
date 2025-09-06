@@ -1,16 +1,27 @@
-# notiplus
+# Notiplus – Application de Gestion de Notes
 
-A new Flutter project.
+## Description
+Notiplus est une application Flutter permettant de gérer des notes personnelles.  
+Elle inclut la création de compte, la connexion sécurisée, et la possibilité d’ajouter, modifier et supprimer des notes stockées localement avec **SQLite**.
 
-## Getting Started
+## Fonctionnalités
+- 🔐 Création d’un compte utilisateur et connexion sécurisée
+- 📋 Liste des notes avec affichage clair et ergonomique
+- ➕ Ajout de notes
+- ✏️ Édition de notes
+- 🗑️ Suppression de notes
+- 🔓 Déconnexion pour changer de compte
+- 🎨 Interface simple et agréable (UI/UX intuitive)
 
-This project is a starting point for a Flutter application.
+## Technologies
+- Flutter SDK
+- Dart
+- SQLite via le package `sqflite`
+- Packages supplémentaires : `path`, `path_provider`
+- Material Design pour l’UI/UX
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Cloner le projet :
+```bash
+git clone https://github.com/BarryDevX/notiplus.git
+cd notiplus
